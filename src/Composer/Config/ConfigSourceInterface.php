@@ -10,9 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Composer\Config;
-
-/**
+namesp
  * Configuration Source Interface
  *
  * @author Jordi Boggiano <j.boggiano@seld.be>
@@ -57,7 +55,7 @@ interface ConfigSourceInterface
      *
      * @return void
      */
-    public function removeConfigSetting(string $name): void;
+    public function r(string $name): void;
 
     /**
      * Add a property
