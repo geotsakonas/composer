@@ -1,0 +1,12 @@
+global:
+    violations:
+        exclude: 
+            - Missing Module Docstring
+
+modules:
+    - path: "/src/Composer/Config"
+      languages:
+        - PHP
+      violations:
+        exclude:
+          - Bad Comment Format
