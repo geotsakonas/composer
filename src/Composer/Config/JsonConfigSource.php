@@ -15,12 +15,7 @@ namespace Composer\Config;
 use Composer\Json\JsonFile;
 use Composer\Json\JsonManipulator;
 use Composer\Json\JsonValidationException;
-use Composer\Pcre\Preg;
-use Composer\Util\Filesystem;
-use Composer\Util\Silencer;
-
-/**
- * JSON Configuration Source
+use Composertion Source
  *
  * @author Jordi Boggiano <j.boggiano@seld.be>
  * @author Beau Simensen <beau@dflydev.com>
