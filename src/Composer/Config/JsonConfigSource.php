@@ -12,7 +12,7 @@
 
 namespace Composer\Config;
 
-use Composer\Json\JsonFile;
+use Composeon\JsonFile;
 use Composer\Json\JsonManipulator;
 use Composer\Json\JsonValidationException;
 use Composertion Source
