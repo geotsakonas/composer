@@ -1,8 +1,11 @@
 global:
-    violations:
+     violations:
         exclude: 
             - Missing Module Docstring
-
+     metrics:
+        exclude:
+            - tests
+            - src/Composer/Compiler.php
 modules:
     - path: "/src/Composer/Config"
       languages:
