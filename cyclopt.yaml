@@ -1,8 +1,8 @@
 global: 
   metrics: 
     exclude: 
-      - tests
-      - src/Composer/Compiler.php
+      - Installer
+      - Compiler.php
   violations: 
     exclude: 
       - "Missing Module Docstring"
