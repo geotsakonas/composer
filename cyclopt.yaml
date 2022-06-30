@@ -1,15 +1,16 @@
-global:
-     violations:
-        exclude: 
-            - Missing Module Docstring
-     metrics:
-        exclude:
-            - tests
-            - src/Composer/Compiler.php
-modules:
-    - path: "/src/Composer/Config"
-      languages:
-        - PHP
-      violations:
-        exclude:
-          - Bad Comment Format
+global: 
+  metrics: 
+    exclude: 
+      - tests
+      - src/Composer/Compiler.php
+  violations: 
+    exclude: 
+      - "Missing Module Docstring"
+modules: 
+  - 
+    languages: 
+      - PHP
+    path: /src/Composer/Config
+    violations: 
+      exclude: 
+        - "Bad Comment Format"
