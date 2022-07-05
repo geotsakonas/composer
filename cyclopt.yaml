@@ -1,7 +1,7 @@
 global: 
   metrics: 
     exclude: 
-      - Installer
+      - /src/Composer/Installer
       - Compiler.php
   violations: 
     exclude: 
